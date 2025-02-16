@@ -1,0 +1,21 @@
+# Analýza Predaja Kníh – SQL Dotazy
+
+Tento dokument obsahuje príklady SQL dotazov demonštrujúcich pokročilé techniky (CTE, window funkcie, CASE WHEN) na analýzu trendov cien, predajnosti kníh a úspešnosti autorov.
+
+## 1. Trendy v cenách kníh podľa žánru
+
+### 1.1 Priemerné ceny a kategorizácia do cenových pásiem
+
+```sql
+SELECT
+    year,
+    genre,
+    ROUND(AVG(price), 2) AS avg_price,
+    CASE
+        WHEN AVG(price) >= 20 THEN 'Premium Segment'
+        WHEN AVG(price) BETWEEN 10 AND 19.99 THEN 'Mid Range'
+        ELSE 'Budget Segment'
+    END AS price_category
+FROM books
+GROUP BY year, genre
+ORDER BY year, genre;
