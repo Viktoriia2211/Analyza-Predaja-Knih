@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/4ee6d0db-dddf-4496-9bf7-8464ad3f7204)
 # Analýza Predaja Kníh – SQL Dotazy
 
 Tento dokument obsahuje príklady SQL dotazov na analýzu trendov cien, predajnosti kníh a úspešnosti autorov.
