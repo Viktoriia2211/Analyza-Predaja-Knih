@@ -143,5 +143,5 @@ SELECT
 FROM cte
 ORDER BY author, year;
 ```
-# Power BI DASHBOARD
+# Power BI Dashboard
 ![image](https://github.com/user-attachments/assets/a451112b-78f6-41cb-8ada-eaa11ed7a290)
