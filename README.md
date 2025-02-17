@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4ee6d0db-dddf-4496-9bf7-8464ad3f7204)
+
 # Analýza Predaja Kníh – SQL Dotazy
 
 Tento dokument obsahuje príklady SQL dotazov na analýzu trendov cien, predajnosti kníh a úspešnosti autorov.
@@ -143,3 +143,5 @@ SELECT
 FROM cte
 ORDER BY author, year;
 ```
+# Power BI DASHBOARD
+![image](https://github.com/user-attachments/assets/a451112b-78f6-41cb-8ada-eaa11ed7a290)
